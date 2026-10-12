@@ -20,35 +20,35 @@ what the script generates. The browse site is deployed to GitHub Pages from
 
 ```yaml
 categories:
-  - slug: models                 # required, unique; matches docs/categories/<slug>/
-    title: Models                # required; page heading
+  - slug: ide-and-cli            # required, unique; matches docs/categories/<slug>/
+    title: IDE and CLI Tools     # required; page heading
     description: "..."           # optional; shown under the heading
-    image: models.webp           # optional; docs/categories/<slug>/<image>
-    image_alt: models            # optional; alt text for the image
+    image: ide-and-cli.webp      # optional; docs/categories/<slug>/<image>
+    image_alt: ide-and-cli       # optional; alt text for the image
     layout: table                # required: table | sections | list
     sections:                    # required for layout: table
-      - name: Closed Models      # omit `name` for a single untitled table
+      - name: IDE                # omit `name` for a single untitled table
         format: table            # table (default) or prose
         fields: [name, summary, source]
-        headers: [Name, Key Features/Notes, Source]
-        name_bold: true          # render names as **bold** (default false)
+        headers: [Tool, Main Features & Models Supported, Link]
+        name_bold: false         # render names as **bold** (default false)
         subsections:             # optional ### sub-tables
           - name: ChatGPT API (Free)
             fields: [name, summary, url]
             headers: [Repository Name, Description, URL]
 
 entries:
-  - name: OpenAI GPT-6 Sol       # required
-    category: models             # required; must match a category slug
-    section: Closed Models       # required for layout: table (null if untitled)
+  - name: Cursor                 # required
+    category: ide-and-cli        # required; must match a category slug
+    section: IDE                 # required for layout: table (null if untitled)
     subsection: ~                # optional; must match a subsection name
     summary: "..."               # short description / notes
     url: https://...             # primary link
-    url_label: OpenAI            # optional; renders source cell as [label](url)
+    url_label: Cursor            # optional; renders source cell as [label](url)
     extra:                       # optional; extra table columns (fields: extra.*)
       usage: "..."
       cli_native: "Yes"
-    tags: [closed-models]        # optional; used by the site's tag filter
+    tags: [ide]                  # optional; used by the site's tag filter
 ```
 
 ### Field reference (`fields` values)
