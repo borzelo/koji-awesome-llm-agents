@@ -4,7 +4,7 @@
 
 Editor-first and terminal-first tools for AI-assisted coding workflows.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## IDE
 

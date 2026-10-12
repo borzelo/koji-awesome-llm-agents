@@ -4,7 +4,7 @@
 
 Supporting tools, platforms, and utilities around LLM workflows.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## Perplexica
 

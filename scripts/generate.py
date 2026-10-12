@@ -321,7 +321,7 @@ def validate(data):
 # Markdown rendering (category pages)
 # ---------------------------------------------------------------------------
 
-BACK_LINK = "[Back to README](../../readme.md)"
+BACK_LINK = "[Back to README](../../../readme.md)"
 
 
 def _source_cell(entry):

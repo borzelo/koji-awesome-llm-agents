@@ -4,7 +4,7 @@
 
 Guides, prompt collections, and learning resources for prompt design.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 | Name                             | Description                                   | URL                                                          |
 | -------------------------------- | --------------------------------------------- | ------------------------------------------------------------ |

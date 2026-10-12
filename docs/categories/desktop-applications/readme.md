@@ -4,7 +4,7 @@
 
 Desktop-native applications for LLM usage.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## BingGPT
 

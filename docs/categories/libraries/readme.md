@@ -4,7 +4,7 @@
 
 Libraries and SDKs for building LLM-powered products.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## bard-ai
 
