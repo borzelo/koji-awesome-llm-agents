@@ -86,15 +86,12 @@ categories:
   description: Model Context Protocol resources and server indexes.
   image: mcp.webp
   image_alt: mcp
-- slug: models
-  title: Models
+- slug: closed-models
+  title: Closed Models
   layout: table
-  description: Model references grouped by availability, size, and decision type.
-  image: models.webp
-  image_alt: models
+  description: Proprietary models available via hosted APIs.
   sections:
-  - name: Closed Models
-    fields:
+  - fields:
     - name
     - summary
     - source
@@ -103,8 +100,12 @@ categories:
     - Key Features/Notes
     - Source
     name_bold: true
-  - name: Open Weight Models
-    fields:
+- slug: decision-models
+  title: Decision Models
+  layout: table
+  description: Non-generative models that return choices, probabilities, and scores for machine decisions.
+  sections:
+  - fields:
     - name
     - summary
     - source
@@ -113,8 +114,12 @@ categories:
     - Key Features/Notes
     - Source
     name_bold: true
-  - name: Small Models
-    fields:
+- slug: open-weight-models
+  title: Open Weight Models
+  layout: table
+  description: Models with publicly released weights for self-hosting and fine-tuning.
+  sections:
+  - fields:
     - name
     - summary
     - source
@@ -123,8 +128,12 @@ categories:
     - Key Features/Notes
     - Source
     name_bold: true
-  - name: Decision Models
-    fields:
+- slug: small-models
+  title: Small Models
+  layout: table
+  description: Compact models for edge, local, and resource-constrained use.
+  sections:
+  - fields:
     - name
     - summary
     - source
@@ -932,1192 +941,1192 @@ entries:
   url: https://github.com/punkpeye/awesome-mcp-servers
   tags:
   - mcp
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-6.1 Sol
   summary: Released at DevDay, Sep 29, 2026. $2 input / $10 output per 1M tokens; 99.7% on ExploitBench (max effort).
   url: https://openai.com/index/gpt-6-1-sol/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-6 Sol
   summary: Released Sep 22, 2026. $2 input / $10 output per 1M tokens; replaces the entire GPT-5.6 tier.
   url: https://openai.com/index/gpt-6-sol/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-6 Luna
   summary: Released Sep 22, 2026. $0.10 input / $0.50 output per 1M tokens; high-volume efficiency tier.
   url: https://openai.com/index/gpt-6-luna/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-6 Astra
   summary: Released Sep 3, 2026. 1.05M-token context, 128K max output; top-tier flagship.
   url: https://openai.com/index/gpt-6-astra/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.6
   summary: ''
   url: https://openai.com/index/gpt-5-6/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.5
   summary: ''
   url: https://openai.com/index/introducing-gpt-5-5/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.4 mini/nano
   summary: ''
   url: https://openai.com/index/introducing-gpt-5-4-mini-and-nano/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.4
   summary: ''
   url: https://openai.com/index/introducing-gpt-5-4/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.3
   summary: ''
   url: https://openai.com/index/introducing-gpt-5-3-codex/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.2
   summary: ''
   url: https://openai.com/index/introducing-gpt-5-2/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5.1
   summary: ''
   url: https://openai.com/index/gpt-5-1/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5 mini
   summary: ''
   url: https://platform.openai.com/docs/models/gpt-5-mini
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5 nano
   summary: ''
   url: https://platform.openai.com/docs/models/gpt-5-nano
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5 pro
   summary: ''
   url: https://platform.openai.com/docs/models/gpt-5-pro
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI GPT-5
   summary: ''
   url: https://openai.com/index/introducing-gpt-5/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI o4-mini
   summary: ''
   url: https://openai.com/index/introducing-o3-and-o4-mini/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI o3
   summary: ''
   url: https://openai.com/index/introducing-o3-and-o4-mini/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI o3-mini
   summary: ''
   url: https://openai.com/index/openai-o3-mini/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI o1
   summary: ''
   url: https://openai.com/o1/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: OpenAI o1-mini
   summary: Advancing cost-efficient reasoning.
   url: https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: GPT-4.5
   summary: ''
   url: https://openai.com/index/introducing-gpt-4-5/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: GPT-4o
   summary: ''
   url: https://openai.com/index/hello-gpt-4o/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: GPT-4o mini
   summary: ''
   url: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: GPT-4.1
   summary: ''
   url: https://platform.openai.com/docs/models/gpt-4.1
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: GPT-4
   summary: ''
   url: https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: GPT-3.5 Turbo
   summary: ''
   url: null
   url_label: OpenAI
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Haiku 5.5
   summary: Released Oct 7, 2026. Cheapest and fastest Claude to date: $0.10 input / $0.50 output per 1M tokens for prompts up to 100k (~75% cheaper than Haiku 4.5); first Haiku-class model with adjustable effort; 1M context window.
   url: https://www.anthropic.com/claude-haiku-5-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 5.5
   summary: Released Sep 22, 2026. $4 input / $20 output per 1M tokens; 66.4% on Terminal-Bench 4.0 (xhigh effort).
   url: https://www.anthropic.com/news/claude-opus-5-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Sonnet 5.5
   summary: Released Sep 28, 2026. Same $2/$10 pricing as Sonnet 5, 30%+ faster output.
   url: https://www.anthropic.com/news/claude-sonnet-5-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Mythos 5.1
   summary: Released Sep 1, 2026. Same weights as Fable 5.1; restricted to vetted orgs.
   url: https://www.anthropic.com/claude-fable-and-mythos-5-1
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Fable 5.1
   summary: ''
   url: https://www.anthropic.com/claude-fable-and-mythos-5-1
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 5
   summary: ''
   url: https://www.anthropic.com/news/claude-opus-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Fable 5
   summary: ''
   url: https://www.anthropic.com/news/redeploying-fable-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Sonnet 5
   summary: ''
   url: https://www.anthropic.com/news/claude-sonnet-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 4.8
   summary: ''
   url: https://www.anthropic.com/news/claude-opus-4-8
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 4.7
   summary: ''
   url: https://www.anthropic.com/news/claude-opus-4-7
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 4.6
   summary: ''
   url: https://www.anthropic.com/news/claude-opus-4-6
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Sonnet 4.6
   summary: ''
   url: https://www.anthropic.com/claude/sonnet
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Haiku 4.6
   summary: ''
   url: https://www.anthropic.com/claude/haiku
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 4.5
   summary: ''
   url: https://www.anthropic.com/news/claude-opus-4-5
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Sonnet 4.5
   summary: ''
   url: https://www.anthropic.com/claude/sonnet
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Haiku 4.5
   summary: ''
   url: https://www.anthropic.com/claude/haiku
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 4.1
   summary: ''
   url: https://www.anthropic.com/news/claude-opus-4-1
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Sonnet 4.1
   summary: ''
   url: null
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Opus 4.0
   summary: ''
   url: https://www.anthropic.com/news/claude-4
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude Sonnet 4.0
   summary: ''
   url: https://www.anthropic.com/news/claude-4
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude 3.7 Sonnet
   summary: ''
   url: https://www.anthropic.com/news/claude-3-7-sonnet
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Claude 3.5 Haiku
   summary: ''
   url: https://www.anthropic.com/claude/haiku
   url_label: Anthropic
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 3.1 Pro
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 3 Flash
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 3 Flash-Lite
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 3 Pro
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models#gemini-3-pro
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 2.5 Pro
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-exp-03-25
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 2.5 Flash
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 2.5 Flash-Lite
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 2.0 Flash
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-2.0-flash
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 2.0 Flash-Lite Preview
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-2.0-flash-lite
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 1.5 Flash
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 1.5 Flash-8B
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash-8b
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 1.5 Pro
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro
   url_label: Google
-- category: models
-  section: Closed Models
+- category: closed-models
+  section: null
   tags:
   - closed-models
   name: Gemini 1.0 Pro (deprecated)
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.0-pro
   url_label: Google
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Qwen/Qwen3.8-2.4T-A95B
   summary: 2.4T total / 95B active MoE (92 layers, 512 experts); 262K native context extensible to ~1M via YaRN; first Qwen-Max-class model released as open weights.
   url: https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Qwen/Qwen3.8-27B
   summary: 27B dense native multimodal (text/image/video); 262K context (YaRN to 1M); hybrid Gated DeltaNet + Gated Attention; Apache 2.0.
   url: https://huggingface.co/Qwen/Qwen3.8-27B
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: zai-org/GLM-5.3
   summary: ~320B total / 18B active MoE; first natively multimodal entry in the GLM-5 generation; ~1M context.
   url: https://huggingface.co/zai-org/GLM-5.3
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: deepseek-ai/DeepSeek-V4.1-Flash
   summary: 552B MoE backbone + 196B "Engram" conditional memory; 8B active on prefill / 16B on decode; 1M context, up to 384K output; MIT.
   url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: deepseek-ai/DeepSeek-V4-Flash-0731
   summary: ~284B / ~13B active MoE; 1M context; MIT; top-3 open weight on Artificial Analysis Intelligence Index.
   url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: XiaomiMiMo/MiMo-V2.6-Pro-RL
   summary: 1.02T total / 42B active frozen-router MoE; natively omnimodal (text/image/video/audio); 1M context; MIT.
   url: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: XiaomiMiMo/MiMo-V2.6-Flash-RL
   summary: 309B total / 15B active MoE; omnimodal; 1M context; MIT.
   url: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: NaiveAI/Naive-N0.5-Flash
   summary: 309B / 15.5B active MoE; native 1M context with no full-attention layers; 73.6% SWE-bench Pro (self-reported); MIT.
   url: https://huggingface.co/NaiveAI/Naive-N0.5-Flash
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: tencent/Hy4-preview
   summary: Hy4 preview is a new-generation Mixture-of-Experts (MoE) flagship model developed by the Tencent Hy Team. The model comprises 770B total parameters, of which 49B are activated per token. The backbone consists of 78 layers, where the first layer uses a standard dense FFN and the remaining 77 layers replace it with MoE, each containing 256 routed experts and 1 shared expert; every token activates the top-8 routed experts along with the shared expert. In addition to the backbone, 1 native MTP layer (10B total parameters, 0.7B activated) is built in for speculative decoding.
   url: https://huggingface.co/tencent/Hy4-preview
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: tencent/Hy3
   summary: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.
   url: https://huggingface.co/tencent/Hy3
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: meta-models/Muse-Glimmer-30B
   summary: Muse Glimmer is a 30-billion-parameter causal language model with a dedicated perception encoder, distilled from Muse Spark and purpose-built for autonomous agentic tasks on consumer hardware. The model integrates multi-step reasoning, reliable tool use, multimodal understanding, and failure recovery into a single model that runs locally without requiring cloud infrastructure or network access.
   url: https://huggingface.co/meta-models/Muse-Glimmer-30B
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: moonshotai/Kimi-K3
   summary: Kimi K3 is an open-weight, native multimodal agentic model and our most capable model to date. It is a 2.8T-parameter model built on Kimi Delta Attention (KDA) and Attention Residuals (AttnRes), with native vision capabilities and a 1-million-token context window. It is the world's first open 3T-class model, designed for frontier intelligence across long-horizon coding, knowledge work, and reasoning.
   url: https://huggingface.co/moonshotai/Kimi-K3
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: moonshotai/Kimi-K2.7-Code
   summary: Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6.
   url: https://huggingface.co/moonshotai/Kimi-K2.7-Code
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: moonshotai/Kimi-K2.6
   summary: Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.
   url: https://huggingface.co/moonshotai/Kimi-K2.6
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: moonshotai/Kimi-K2.5
   summary: Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base. It seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.
   url: https://huggingface.co/moonshotai/Kimi-K2.5
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: google/gemma-4-12B
   summary: Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on E2B, E4B, and 12B) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.
   url: https://huggingface.co/google/gemma-4-12B
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: deepseek-ai/DeepSeek-V4-Pro
   summary: '1. **Hybrid Attention Architecture**: We design a hybrid attention mechanism combining Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA) to dramatically improve long-context efficiency. In the 1M-token context setting, DeepSeek-V4-Pro requires only 27% of single-token inference FLOPs and 10% of KV cache compared with DeepSeek-V3.<br><br>2. **Manifold-Constrained Hyper-Connections (mHC)**: We incorporate mHC to strengthen conventional residual connections, enhancing stability of signal propagation across layers while preserving model expressivity.<br><br>3. **Muon Optimizer**: We employ the Muon optimizer for faster convergence and greater training stability.'
   url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: google/gemma-4-31B
   summary: Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.
   url: https://huggingface.co/google/gemma-4-31B
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: google/gemma-4-26B-A4B
   summary: Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.
   url: https://huggingface.co/google/gemma-4-26B-A4B
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: GLM-5.2
   summary: GLM‑5.2 is Z.ai’s latest flagship large language model designed specifically for long‑horizon tasks. It represents a major upgrade over GLM‑5.1, delivering a stable 1‑million‑token context window, enabling sustained reasoning, long‑form workflows, and large‑scale code or document understanding.
   url: https://huggingface.co/zai-org/GLM-5.2
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: GLM-5.1
   summary: GLM-5.1, by contrast, is built to stay effective on agentic tasks over much longer horizons. We've found that the model handles ambiguous problems with better judgment and stays productive over longer sessions. It breaks complex problems down, runs experiments, reads results, and identifies blockers with real precision. By revisiting its reasoning and revising its strategy through repeated iteration, GLM-5.1 sustains optimization over hundreds of rounds and thousands of tool calls. The longer it runs, the better the result.
   url: https://huggingface.co/zai-org/GLM-5.1
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: GLM-5
   summary: ', GLM-5 delivers significant improvement compared to GLM-4.7 across a wide range of academic benchmarks and achieves best-in-class performance among all open-source models in the world on reasoning, coding, and agentic tasks, closing the gap with frontier models.'
   url: https://huggingface.co/zai-org/GLM-5
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: GLM-4.7
   summary: 'GLM-4.7, your new coding partner, is coming with the following features:Core Coding: GLM-4.7 brings clear gains, compared to its predecessor GLM-4.6, in multilingual agentic coding and terminal-based tasks, including (73.8%, +5.8%) on SWE-bench, (66.7%, +12.9%) on SWE-bench Multilingual, and (41%, +16.5%) on Terminal Bench 2.0. GLM-4.7 also supports thinking before acting, with significant improvements on complex tasks in mainstream agent frameworks such as Claude Code, Kilo Code, Cline, and Roo Code.Vibe Coding: GLM-4.7 takes a big step forward in improving UI quality. It produces cleaner, more modern webpages and generates better-looking slides with more accurate layout and sizing.Tool Using: GLM-4.7 achieves significantly improvements in Tool using. Significant better performances can be seen on benchmarks such as τ^2-Bench and on web browsing via BrowseComp.Complex Reasoning: GLM-4.7 delivers a substantial boost in mathematical and reasoning capabilities, achieving (42.8%, +12.4%) on the HLE (Humanity’s Last Exam) benchmark compared to GLM-4.6.'
   url: https://huggingface.co/zai-org/GLM-4.7
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: GLM-4.6
   summary: GLM-4.6 is a large language model from Zhipu AI, known for its strong agentic, reasoning, and coding capabilities. It is an open-weight model with a \(200K\) context window and is designed to be competitive with models like Claude Sonnet 4.
   url: https://huggingface.co/zai-org/GLM-4.6
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: DeepSeek-V3.2
   summary: This experimental release represents our ongoing research into more efficient transformer architectures, particularly focusing on improving computational efficiency when processing extended text sequences.
   url: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: DeepSeek-V3.1
   summary: DeepSeek-V3.1 is post-trained on the top of DeepSeek-V3.1-Base, which is built upon the original V3 base checkpoint through a two-phase long context extension approach, following the methodology outlined in the original DeepSeek-V3 report. We have expanded our dataset by collecting additional long documents and substantially extending both training phases. The 32K extension phase has been increased 10-fold to 630B tokens, while the 128K extension phase has been extended by 3.3x to 209B tokens.
   url: https://huggingface.co/deepseek-ai/DeepSeek-V3.1
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: gpt-oss-120b
   summary: for production, general purpose, high reasoning use cases that fit into a single 80GB GPU (like NVIDIA H100 or AMD MI300X) (117B parameters with 5.1B active parameters)
   url: https://huggingface.co/openai/gpt-oss-120b
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: gpt-oss-20b
   summary: for lower latency, and local or specialized use cases (21B parameters with 3.6B active parameters)
   url: https://huggingface.co/openai/gpt-oss-20b
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: phi-4-reasoning
   summary: Phi-4-reasoning is a state-of-the-art open-weight reasoning model finetuned from Phi-4 using supervised fine-tuning on a dataset of chain-of-thought traces and reinforcement learning.
   url: https://huggingface.co/microsoft/Phi-4-reasoning
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Qwen3.7
   summary: Qwen3.7
   url: https://qwen.ai/blog?id=qwen3.7
   url_label: Qwen3.7
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Qwen3.6
   summary: Qwen3.6 series
   url: https://huggingface.co/collections/Qwen/qwen36
   url_label: Qwen3.6
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Qwen3.5
   summary: Qwen3.5 series
   url: https://huggingface.co/collections/Qwen/qwen35
   url_label: Qwen3.5
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Qwen3 LLM
   summary: The next version of the Qwen LLM series, Qwen3, brings a new level of advancement in both natural language processing and multimodal capabilities.
   url: https://qwen3.org/
   url_label: Qwen3
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: phi-4
   summary: Focused on high-quality data and advanced reasoning; blend of synthetic and curated datasets.
   url: https://huggingface.co/microsoft/phi-4
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: DeepSeek-V3
   summary: Breakthrough in inference speed; rivals top closed-source models.
   url: https://www.deepseek.com/
   url_label: DeepSeek
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: DeepSeek-R1
   summary: Breakthrough in inference speed; rivals top closed-source models.
   url: https://github.com/deepseek-ai/DeepSeek-R1
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Falcon 2
   summary: Details unspecified (assumed part of Falcon LLM series).
   url: https://falconllm.tii.ae/
   url_label: Falcon LLM
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Llama4
   summary: The most accessible and scalable generation of Llama is here. Native multimodality, mixture-of-experts models, super long context windows, step changes in performance, and unparalleled efficiency. All in easy-to-deploy sizes custom fit for how you want to use it. performance.
   url: https://www.llama.com/llama4/
   url_label: Meta
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Llama3
   summary: Pretrained and instruction-tuned 8B/70B models optimized for dialogue; emphasizes safety and performance.
   url: https://llama.meta.com/llama3/
   url_label: Meta
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Code Llama
   summary: Code-specialized version of Llama 2; trained on code-specific datasets.
   url: https://huggingface.co/codellama
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: dolphin-2.2.1-mistral-7b
   summary: Apache-2.0 licensed; enhanced for empathy, personal advice, and multi-turn conversations.
   url: https://huggingface.co/cognitivecomputations/dolphin-2.2.1-mistral-7b
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Intel/neural-chat-7b-v3-1
   summary: Fine-tuned Mistral-7B using Open-Orca/SlimOrca data; aligned with DPO algorithm.
   url: https://huggingface.co/Intel/neural-chat-7b-v3-1
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Magistral-Small-2506
   summary: Building upon Mistral Small 3.1 (2503), with added reasoning capabilities, undergoing SFT from Magistral Medium traces and RL on top, it's a small, efficient reasoning model with 24B parameters.
   url: https://huggingface.co/mistralai/Magistral-Small-2506
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Mistral 7B
   summary: Mistral AI's first LLM; general-purpose natural language processing.
   url: https://docs.mistral.ai/
   url_label: Mistral Docs
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Mistral Small 3.1
   summary: Building upon Mistral Small 3 (2501), Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance. With 24 billion parameters, this model achieves top-tier capabilities in both text and vision tasks.
   url: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Base-2503
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: LLaVA
   summary: Visual instruction tuning for vision-language models with GPT-4 capabilities.
   url: https://github.com/haotian-liu/LLaVA
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: FreeWilly2
   summary: High-performing instruction-tuned model (details unspecified).
   url: https://huggingface.co/stabilityai/StableBeluga2
   url_label: Hugging Face
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: LLaMA2
   summary: Next-gen open-source LLM by Meta; optimized for dialogue and safety.
   url: https://ai.meta.com/llama/
   url_label: Meta
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: InternLM
   summary: Open-sourced 7B base and chat models for practical scenarios.
   url: https://github.com/InternLM/InternLM
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Gorilla
   summary: Enables LLMs to invoke APIs for tool usage.
   url: https://github.com/ShishirPatil/gorilla
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Falcon LLM
   summary: Open-sourced by Technology Innovation Institute for research/commercial use.
   url: https://falconllm.tii.ae/
   url_label: Falcon LLM
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: MPT-7B
   summary: Efficient, commercially usable LLM by MosaicML.
   url: https://www.mosaicml.com/blog/mpt-7b
   url_label: MosaicML
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: StableLM
   summary: Stability AI's ongoing LLM series development.
   url: https://github.com/stability-AI/stableLM/
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: LLaMA
   summary: Meta's foundational LLM.
   url: https://github.com/facebookresearch/llama
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: PaLM-E
   summary: Embodied multimodal language model (combines vision and language).
   url: https://palm-e.github.io/
   url_label: Website
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Stanford Alpaca
   summary: Instruction-following LLaMA model.
   url: https://github.com/tatsu-lab/stanford_alpaca
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: ChatGLM-6B
   summary: Open bilingual (EN/CN) dialogue model.
   url: https://github.com/THUDM/ChatGLM-6B
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: OpenFlamingo
   summary: Framework for training multimodal LLMs.
   url: https://github.com/mlfoundations/open_flamingo
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Guanaco
   summary: Details unspecified (assumed conversational model).
   url: https://guanaco-model.github.io/
   url_label: Website
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Alpaca-LoRA
   summary: Low-Rank Adaptation (LoRA) for training Alpaca-style models.
   url: https://github.com/tloen/alpaca-lora
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: NVIDIA NeMo
   summary: Toolkit for building and training conversational AI models.
   url: https://github.com/NVIDIA/NeMo
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: RWKV Language Model
   summary: Alternative architecture for efficient long-context modeling.
   url: https://github.com/BlinkDL/RWKV-LM
   url_label: GitHub
-- category: models
-  section: Open Weight Models
+- category: open-weight-models
+  section: null
   tags:
   - open-weight-models
   name: Dolly
   summary: Instruction-following LLM by Databricks; commercially licensed.
   url: https://github.com/databrickslabs/dolly
   url_label: GitHub
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: Xiaomi MiMo-V2.6 Distill-Qwen-9B
   summary: 9B dense distill of the MiMo-V2.6 family for single-GPU use; MIT.
   url: https://www.eesel.ai/blog/xiaomi-mimo-v2-6-review
   url_label: Blog
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: google/gemma-4-E2B
   summary: Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.
   url: https://huggingface.co/google/gemma-4-E2B
   url_label: Hugging Face
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: google/gemma-4-E4B
   summary: Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.
   url: https://huggingface.co/google/gemma-4-E4B
   url_label: Hugging Face
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: LFM2.5-1.2B-Instruct
   summary: LFM2.5 is a new family of hybrid models designed for on-device deployment. It builds on the LFM2 architecture with extended pre-training and reinforcement learning.
   url: https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct
   url_label: Hugging Face
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: TinySwallow-1.5B
   summary: TinySwallow-1.5B is a Japanese compact language model created through TAID (Temporally Adaptive Interpolated Distillation), sakana ai's new knowledge distillation method.
   url: https://huggingface.co/SakanaAI/TinySwallow-1.5B
   url_label: Hugging Face
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: Gemma-2B
   summary: Google's SLM
   url: https://huggingface.co/google/gemma-2b
   url_label: Hugging Face
-- category: models
-  section: Small Models
+- category: small-models
+  section: null
   tags:
   - small-models
   name: Llama-3.2-3B
   summary: The Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out).
   url: https://huggingface.co/meta-llama/Llama-3.2-3B
   url_label: Hugging Face
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: TypeSafe AI Jev
   summary: Reference decision model (launched Sep 15, 2026): typed Choice/Score/Noul questions over state data with single-pass non-autoregressive scoring; $0.042/1M input, output free; 64k context; hosted only.
   url: https://www.sanity.io/glossary/jev-typesafe-ai-model
   url_label: Sanity
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: OpenAI Decisions API
   summary: Public beta since Oct 6, 2026 on gpt-6-luna: returns predicate/choice/score/refusal; text + base64-inline image; ~10x faster than Responses API (vendor claim); $0.10/1M input, output free; ZDR/HIPAA.
   url: https://cellcog.ai/blog/openai-decisions-api/
   url_label: CellCog
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Microsoft Decision-1
   summary: Foundry preview: Yes/No, choice, rating, and agent-action rubric scoring; single pass, 32k context; Qwen3.5-9B base, open weights; $0.042/1M input, output free.
   url: https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473
   url_label: The Register
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Cloudflare Clef / Clef-flash
   summary: Apache 2.0 open decision models (27B/9B) for text, JSON, and image; up to 64 questions per request; HF weights + Workers AI; Jev-compatible; $0.038-0.24/1M input after the Oct 9, 2026 flash price cut.
   url: https://technori.com/2026/10/27040-open-weight-models-clef-agent-decisions/owen/
   url_label: Technori
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Perplexity pplx-decider-v1-27b
   summary: Apache 2.0, 27B (Qwen3.8-27B-based): Yes/No, multi-choice, ordered score; 262k context; API + Hugging Face; $0.04/1M input, output free.
   url: https://aiweekly.co/alerts/perplexity-open-sources-27b-decider-edges-jev-on-11-test-panel
   url_label: AI Weekly
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: AWS Strands Decider 2B
   summary: Apache 2.0, ~2B (Qwen3.5-2B with LM head replaced by pointer head): checkpoint-style agent decisions, no text generation; training data published; free/self-hosted.
   url: https://randomchaos.us/articles/strands-built-a-2b-model-that-never-writes-text/
   url_label: Random Chaos
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Fastino GLiDE
   summary: Hosted API with adaptive reasoning: fast first pass, extra reasoning only when uncertain, folded into final probabilities; 40k context; pricing not published.
   url: https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/
   url_label: MarkTechPost
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Levanto Sage
   summary: Hosted API: Yes/No, Choice, Scale, Sort, Tags; returns null for human escalation when uncertain; reasoning off/auto/on (~100-450ms with off); decision-unit plans.
   url: https://levanto.ai
   url_label: Levanto
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Liquid AI d1
   summary: Hosted-only decision model (Noul/Choice/Score) via Liquid API and Vercel AI Gateway; free tier, paid pricing undisclosed.
   url: https://datanorth.ai/news/liquid-ai-releases-d1
   url_label: DataNorth
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Nace AI Drex 1.5
   summary: 8.95B open weights (Open RAIL-M): Choice/Score/Noul; Kev runtime, llama.cpp/Ollama fork, OpenRouter, Nace Console; $0.04/1M input, output free (DeepInfra).
   url: https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
   url_label: MarkTechPost
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Laya
   summary: Apache 2.0, 421M/322M (ModernBERT + decision head): pip, MLX, Jev-compatible server, llama.cpp, Ollama-style runtime, C API; ~13ms on Apple Silicon (model-card measured).
   url: https://github.com/vishalmysore/layamoe/blob/HEAD/docs/laya-vs-jev-laya-deep-dive.md
   url_label: GitHub
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Fastino GLiNER2.5-Decide
   summary: Apache 2.0, 340M (DeBERTa-v3-large): constrained decoder preserves declared cross-question constraints; also returns spans/relations; CPU and air-gapped friendly.
   url: https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/
   url_label: MarkTechPost
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: H2O AI H2O-Lightning-4B
   summary: Apache 2.0, 4B (Qwen3.5-4B, ~9.1GB): text+image choice/yes-no/score in one forward pass plus one output token; 29ms median (H2O-measured).
   url: https://www.tipranks.com/news/private-companies/h2o-ai-highlights-benchmark-results-for-open-weight-lightning-4b-model
   url_label: TipRanks
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Nimble 9B
   summary: Qwen3.5-9B LoRA decision model; Ollama/MLX/CUDA; license conflict unresolved (Apache 2.0 per Ollama article vs CC BY-NC 4.0 per comparison table) - verify before use.
   url: https://blog.devgenius.io/evaluating-a-decision-model-nimble-9b-and-its-base-model-qwen3-5-9b-a845c2bbd7f0
   url_label: DevGenius
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Together AI Tev1 / Tev1-0.8B
   summary: Experimental 4B/0.8B decision models via Ollama and Together API; 0.8B targets edge.
   url: https://i10x.ai/news/ollama-035-jev-decision-models
   url_label: i10x
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: kev-0.5b / OpenJev
   summary: Small indie reproductions: kev-0.5b (Qwen2.5-0.5B + LoRA/readout head, ~160ms for 6 questions on Apple M5); OpenJev reads Qwen3.5-4B option logits (0.845 vs Jev 0.883 balanced accuracy, author eval).
   url: https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
   url_label: MarkTechPost
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: MIMIR
   summary: Open decision model: 7 decision types, abstains when it cannot support an answer; CPU/CUDA local torch engine, HTTP, MCP, and 8 agent-SDK adapters.
   url: https://github.com/abderahmane-ai/mimir
   url_label: GitHub
-- category: models
-  section: Decision Models
+- category: decision-models
+  section: null
   tags:
   - decision-models
   name: Jev-style long tail
