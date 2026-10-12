@@ -89,7 +89,7 @@ categories:
 - slug: models
   title: Models
   layout: table
-  description: Model references grouped by availability and size.
+  description: Model references grouped by availability, size, and decision type.
   image: models.webp
   image_alt: models
   sections:
@@ -114,6 +114,16 @@ categories:
     - Source
     name_bold: true
   - name: Small Models
+    fields:
+    - name
+    - summary
+    - source
+    headers:
+    - Name
+    - Key Features/Notes
+    - Source
+    name_bold: true
+  - name: Decision Models
     fields:
     - name
     - summary
@@ -1970,6 +1980,150 @@ entries:
   summary: The Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out).
   url: https://huggingface.co/meta-llama/Llama-3.2-3B
   url_label: Hugging Face
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: TypeSafe AI Jev
+  summary: Reference decision model (launched Sep 15, 2026): typed Choice/Score/Noul questions over state data with single-pass non-autoregressive scoring; $0.042/1M input, output free; 64k context; hosted only.
+  url: https://www.sanity.io/glossary/jev-typesafe-ai-model
+  url_label: Sanity
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: OpenAI Decisions API
+  summary: Public beta since Oct 6, 2026 on gpt-6-luna: returns predicate/choice/score/refusal; text + base64-inline image; ~10x faster than Responses API (vendor claim); $0.10/1M input, output free; ZDR/HIPAA.
+  url: https://cellcog.ai/blog/openai-decisions-api/
+  url_label: CellCog
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Microsoft Decision-1
+  summary: Foundry preview: Yes/No, choice, rating, and agent-action rubric scoring; single pass, 32k context; Qwen3.5-9B base, open weights; $0.042/1M input, output free.
+  url: https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473
+  url_label: The Register
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Cloudflare Clef / Clef-flash
+  summary: Apache 2.0 open decision models (27B/9B) for text, JSON, and image; up to 64 questions per request; HF weights + Workers AI; Jev-compatible; $0.038-0.24/1M input after the Oct 9, 2026 flash price cut.
+  url: https://technori.com/2026/10/27040-open-weight-models-clef-agent-decisions/owen/
+  url_label: Technori
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Perplexity pplx-decider-v1-27b
+  summary: Apache 2.0, 27B (Qwen3.8-27B-based): Yes/No, multi-choice, ordered score; 262k context; API + Hugging Face; $0.04/1M input, output free.
+  url: https://aiweekly.co/alerts/perplexity-open-sources-27b-decider-edges-jev-on-11-test-panel
+  url_label: AI Weekly
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: AWS Strands Decider 2B
+  summary: Apache 2.0, ~2B (Qwen3.5-2B with LM head replaced by pointer head): checkpoint-style agent decisions, no text generation; training data published; free/self-hosted.
+  url: https://randomchaos.us/articles/strands-built-a-2b-model-that-never-writes-text/
+  url_label: Random Chaos
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Fastino GLiDE
+  summary: Hosted API with adaptive reasoning: fast first pass, extra reasoning only when uncertain, folded into final probabilities; 40k context; pricing not published.
+  url: https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/
+  url_label: MarkTechPost
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Levanto Sage
+  summary: Hosted API: Yes/No, Choice, Scale, Sort, Tags; returns null for human escalation when uncertain; reasoning off/auto/on (~100-450ms with off); decision-unit plans.
+  url: https://levanto.ai
+  url_label: Levanto
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Liquid AI d1
+  summary: Hosted-only decision model (Noul/Choice/Score) via Liquid API and Vercel AI Gateway; free tier, paid pricing undisclosed.
+  url: https://datanorth.ai/news/liquid-ai-releases-d1
+  url_label: DataNorth
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Nace AI Drex 1.5
+  summary: 8.95B open weights (Open RAIL-M): Choice/Score/Noul; Kev runtime, llama.cpp/Ollama fork, OpenRouter, Nace Console; $0.04/1M input, output free (DeepInfra).
+  url: https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
+  url_label: MarkTechPost
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Laya
+  summary: Apache 2.0, 421M/322M (ModernBERT + decision head): pip, MLX, Jev-compatible server, llama.cpp, Ollama-style runtime, C API; ~13ms on Apple Silicon (model-card measured).
+  url: https://github.com/vishalmysore/layamoe/blob/HEAD/docs/laya-vs-jev-laya-deep-dive.md
+  url_label: GitHub
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Fastino GLiNER2.5-Decide
+  summary: Apache 2.0, 340M (DeBERTa-v3-large): constrained decoder preserves declared cross-question constraints; also returns spans/relations; CPU and air-gapped friendly.
+  url: https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/
+  url_label: MarkTechPost
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: H2O AI H2O-Lightning-4B
+  summary: Apache 2.0, 4B (Qwen3.5-4B, ~9.1GB): text+image choice/yes-no/score in one forward pass plus one output token; 29ms median (H2O-measured).
+  url: https://www.tipranks.com/news/private-companies/h2o-ai-highlights-benchmark-results-for-open-weight-lightning-4b-model
+  url_label: TipRanks
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Nimble 9B
+  summary: Qwen3.5-9B LoRA decision model; Ollama/MLX/CUDA; license conflict unresolved (Apache 2.0 per Ollama article vs CC BY-NC 4.0 per comparison table) - verify before use.
+  url: https://blog.devgenius.io/evaluating-a-decision-model-nimble-9b-and-its-base-model-qwen3-5-9b-a845c2bbd7f0
+  url_label: DevGenius
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Together AI Tev1 / Tev1-0.8B
+  summary: Experimental 4B/0.8B decision models via Ollama and Together API; 0.8B targets edge.
+  url: https://i10x.ai/news/ollama-035-jev-decision-models
+  url_label: i10x
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: kev-0.5b / OpenJev
+  summary: Small indie reproductions: kev-0.5b (Qwen2.5-0.5B + LoRA/readout head, ~160ms for 6 questions on Apple M5); OpenJev reads Qwen3.5-4B option logits (0.845 vs Jev 0.883 balanced accuracy, author eval).
+  url: https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
+  url_label: MarkTechPost
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: MIMIR
+  summary: Open decision model: 7 decision types, abstains when it cannot support an answer; CPU/CUDA local torch engine, HTTP, MCP, and 8 agent-SDK adapters.
+  url: https://github.com/abderahmane-ai/mimir
+  url_label: GitHub
+- category: models
+  section: Decision Models
+  tags:
+  - decision-models
+  name: Jev-style long tail
+  summary: Hobbyist/open Jev-style models (JevK5, Julia-1, lev, Kev-4B, Rune, CLM, ...) - mostly unbenchmarked; curated in the awesome-jev-tools list.
+  url: https://github.com/v-modal/awesome-jev-tools
+  url_label: GitHub
 - category: openclaw
   section: null
   tags: []
