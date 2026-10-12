@@ -21,7 +21,7 @@ Curated links for ChatGPT, LLMs, prompt engineering, agent frameworks, coding to
 | Category | Contents | Page |
 | --- | --- | --- |
 | Agent Frameworks | Frameworks and reference stacks for building agentic systems. | [Agent Frameworks](docs/categories/agent-frameworks/readme.md) |
-| Applications | Applications and end-user projects built around ChatGPT or adjacent LLM workflows. | [Applications](docs/categories/aplications/readme.md) |
+| Applications | Applications and end-user projects built around ChatGPT or adjacent LLM workflows. | [Applications](docs/categories/applications/readme.md) |
 | Desktop Applications | Desktop-native applications for LLM usage. | [Desktop Applications](docs/categories/desktop-applications/readme.md) |
 | IDE and CLI Tools | Editor-first and terminal-first tools for AI-assisted coding workflows. | [IDE and CLI Tools](docs/categories/ide-and-cli/readme.md) |
 | Libraries | Libraries and SDKs for building LLM-powered products. | [Libraries](docs/categories/libraries/readme.md) |

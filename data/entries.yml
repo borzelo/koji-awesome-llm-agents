@@ -20,7 +20,7 @@ categories:
     name_bold: false
   - name: AI Agents Stack
     format: prose
-- slug: aplications
+- slug: applications
   title: Applications
   layout: sections
   description: Applications and end-user projects built around ChatGPT or adjacent LLM workflows.
@@ -298,194 +298,194 @@ entries:
   tags:
   - ai-agents-stack
 - name: Danswer
-  category: aplications
+  category: applications
   section: null
   summary: Danswer allows you to ask natural language questions against internal documents and get back reliable answers backed by quotes and references from the source material so that you can always trust what you get back. You can connect to a number of common tools such as Slack, GitHub, Confluence, amongst others.
   url: https://github.com/danswer-ai/danswer
   tags:
-  - aplications
+  - applications
 - name: DocsGPT
-  category: aplications
+  category: applications
   section: null
   summary: DocsGPT is a cutting-edge open-source solution that streamlines the process of finding information in project documentation. With its integration of the powerful GPT models, developers can easily ask questions about a project and receive accurate answers.
   url: https://github.com/arc53/DocsGPT
   tags:
-  - aplications
+  - applications
 - name: Open Interpreter
-  category: aplications
+  category: applications
   section: null
   summary: Open Interpreter lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal by running $ interpreter after installing.
   url: https://github.com/KillianLucas/open-interpreter
   tags:
-  - aplications
+  - applications
 - name: ViLT-GPT
-  category: aplications
+  category: applications
   section: null
   summary: ViLT-GPT is an innovative application that gives the conversational AI ChatGPT the ability to "see". By integrating OpenAI's Language Models (LLM) and LangChain with Vision-and-Language models, this app can answer queries based on the content of images. Now, you can interact with your images, ask questions and get informative responses.
   url: https://github.com/CodeAlchemyAI/ViLT-GPT
   tags:
-  - aplications
+  - applications
 - name: MetaGPT
-  category: aplications
+  category: applications
   section: null
   summary: '🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo'
   url: https://github.com/geekan/MetaGPT
   tags:
-  - aplications
+  - applications
 - name: gpt-author
-  category: aplications
+  category: applications
   section: null
   summary: A 15-chapter novel can cost as little as $4 to produce and is written in just a few minutes.
   url: https://github.com/mshumer/gpt-author
   tags:
-  - aplications
+  - applications
 - name: GPT Engineer
-  category: aplications
+  category: applications
   section: null
   summary: GPT Engineer is made to be easy to adapt, extend, and make your agent learn how you want your code to look. It generates an entire codebase based on a prompt.
   url: https://github.com/AntonOsika/gpt-engineer
   tags:
-  - aplications
+  - applications
 - name: GPT Deploy
-  category: aplications
+  category: applications
   section: null
   summary: Turn your natural language descriptions into fully functional, deployed AI-powered microservices with a single command! Your imagination is the limit!
   url: https://github.com/jina-ai/gptdeploy
   tags:
-  - aplications
+  - applications
 - name: MiniGPT-4
-  category: aplications
+  category: applications
   section: null
   summary: Enhancing Vision-language Understanding with Advanced Large Language Models
   url: https://github.com/Vision-CAIR/MiniGPT-4
   tags:
-  - aplications
+  - applications
 - name: CAMEL
-  category: aplications
+  category: applications
   section: null
   summary: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society.
   url: https://github.com/lightaime/camel
   tags:
-  - aplications
+  - applications
 - name: Taxy
-  category: aplications
+  category: applications
   section: null
   summary: Taxy uses GPT-4 to control your browser and perform repetitive actions on your behalf. Currently it allows you to define ad-hoc instructions. In the future it will also support saved and scheduled workflows.
   url: https://github.com/TaxyAI/browser-extension
   tags:
-  - aplications
+  - applications
 - name: roomGPT
-  category: aplications
+  category: applications
   section: null
   summary: This project generates new designs of your room with AI.
   url: https://github.com/Nutlope/roomGPT
   tags:
-  - aplications
+  - applications
 - name: ChatGPTFreeApp
-  category: aplications
+  category: applications
   section: null
   summary: ''
   url: https://github.com/ztjhz/ChatGPTFreeApp
   tags:
-  - aplications
+  - applications
 - name: Visual ChatGPT
-  category: aplications
+  category: applications
   section: null
   summary: Visual ChatGPT connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
   url: https://github.com/microsoft/visual-chatgpt
   tags:
-  - aplications
+  - applications
 - name: researchgpt
-  category: aplications
+  category: applications
   section: null
   summary: ''
   url: https://github.com/mukulpatnaik/researchgpt
   tags:
-  - aplications
+  - applications
 - name: AIShader
-  category: aplications
+  category: applications
   section: null
   summary: This is a proof-of-concept implementation of a ChatGPT-powered shader generator for Unity.
   url: https://github.com/keijiro/AIShader
   tags:
-  - aplications
+  - applications
 - name: ChatGPT
-  category: aplications
+  category: applications
   section: null
   summary: It is an unofficial project intended for personal learning and research purposes only. During the time that the ChatGPT desktop application was open-sourced.
   url: https://github.com/lencx/ChatGPT
   tags:
-  - aplications
+  - applications
 - name: ChatGPT-bot(telegram)
-  category: aplications
+  category: applications
   section: null
   summary: Go CLI to fuels a Telegram bot that lets you interact with ChatGPT, a large language model trained by OpenAI.
   url: https://github.com/m1guelpf/chatgpt-telegram
   tags:
-  - aplications
+  - applications
 - name: ChatGPT Prompt Genius
-  category: aplications
+  category: applications
   section: null
   summary: ChatGPT Prompt Genius, a free, open-source browser extension that helps you 🔍 discover, share, import, and use the best prompts for ChatGPT. You can also 💾 save your chat history locally so you can easily review past conversations and refer to them at a later time.
   url: https://github.com/benf2004/ChatGPT-Prompt-Genius
   tags:
-  - aplications
+  - applications
 - name: ChatHub
-  category: aplications
+  category: applications
   section: null
   summary: ChatHub is an all-in-one chatbot client.
   url: https://github.com/chathub-dev/chathub
   tags:
-  - aplications
+  - applications
 - name: WebChatGPT
-  category: aplications
+  category: applications
   section: null
   summary: This browser extension adds web access capability to ChatGPT. Get much more relevant and up-to-date answers from the chatbot!
   url: https://github.com/qunash/chatgpt-advanced
   tags:
-  - aplications
+  - applications
 - name: gpt-macro
-  category: aplications
+  category: applications
   section: null
   summary: ChatGPT powered Rust proc macro that generates code at compile-time.
   url: https://github.com/retrage/gpt-macro
   tags:
-  - aplications
+  - applications
 - name: ChatGeoPT
-  category: aplications
+  category: applications
   section: null
   summary: A very basic, very brittle proof of concept for an AI assistant for geospatial search
   url: https://github.com/earth-genome/ChatGeoPT
   tags:
-  - aplications
+  - applications
 - name: Auto-GPT
-  category: aplications
+  category: applications
   section: null
   summary: An experimental open-source attempt to make GPT-4 fully autonomous.
   url: https://github.com/Torantulino/Auto-GPT
   tags:
-  - aplications
+  - applications
 - name: ChatGPT Plugins Collection ⭐️ (unofficial)
-  category: aplications
+  category: applications
   section: null
   summary: 'An unofficial collection of Plugins for ChatGPT, in any programming language! Note: This is not an official OpenAI or ChatGPT related repository.'
   url: https://github.com/logankilpatrick/ChatGPT-Plugins-Collection
   tags:
-  - aplications
+  - applications
 - name: babyagi
-  category: aplications
+  category: applications
   section: null
   summary: This Python script is an example of an AI-powered task management system. The system uses OpenAI and Pinecone APIs to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and Pinecone to store and retrieve task results for context. This is a pared-down version of the original Task-Driven Autonomous Agent.
   url: https://github.com/yoheinakajima/babyagi
   tags:
-  - aplications
+  - applications
 - name: babyagi-streamlit
-  category: aplications
+  category: applications
   section: null
   summary: ''
   url: https://github.com/dory111111/babyagi-streamlit
   tags:
-  - aplications
+  - applications
 - name: BingGPT
   category: desktop-applications
   section: null
