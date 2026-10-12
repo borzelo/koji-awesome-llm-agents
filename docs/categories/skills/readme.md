@@ -2,7 +2,7 @@
 
 # Skills
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## obra/superpowers
 

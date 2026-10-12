@@ -4,7 +4,7 @@
 
 Miscellaneous repositories, references, and adjacent projects.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## LLM-Reading-List
 

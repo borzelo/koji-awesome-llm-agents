@@ -26,7 +26,10 @@ Curated links for ChatGPT, LLMs, prompt engineering, agent frameworks, coding to
 | IDE and CLI Tools | Editor-first and terminal-first tools for AI-assisted coding workflows. | [IDE and CLI Tools](docs/categories/ide-and-cli/readme.md) |
 | Libraries | Libraries and SDKs for building LLM-powered products. | [Libraries](docs/categories/libraries/readme.md) |
 | MCP | Model Context Protocol resources and server indexes. | [MCP](docs/categories/mcp/readme.md) |
-| Models | Model references grouped by availability, size, and decision type. | [Models](docs/categories/models/readme.md) |
+| Closed Models | Proprietary models available via hosted APIs. | [Closed Models](docs/categories/closed-models/readme.md) |
+| Decision Models | Non-generative models that return choices, probabilities, and scores for machine decisions. | [Decision Models](docs/categories/decision-models/readme.md) |
+| Open Weight Models | Models with publicly released weights for self-hosting and fine-tuning. | [Open Weight Models](docs/categories/open-weight-models/readme.md) |
+| Small Models | Compact models for edge, local, and resource-constrained use. | [Small Models](docs/categories/small-models/readme.md) |
 | OpenClaw | OpenClaw and its variants | [OpenClaw](docs/categories/openclaw/readme.md) |
 | Other Resources | Miscellaneous repositories, references, and adjacent projects. | [Other Resources](docs/categories/other-resources/readme.md) |
 | Prompt Engineering | Guides, prompt collections, and learning resources for prompt design. | [Prompt Engineering](docs/categories/prompt-engineering/readme.md) |

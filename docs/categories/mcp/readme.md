@@ -4,7 +4,7 @@
 
 Model Context Protocol resources and server indexes.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 - https://smithery.ai/
 - https://himcp.ai/

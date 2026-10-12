@@ -4,7 +4,7 @@
 
 Rapid app-building tools for demos and lightweight AI interfaces.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 | Name      | Description                                                                                                                      | URL                                |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |

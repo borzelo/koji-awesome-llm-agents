@@ -4,7 +4,7 @@
 
 Applications and end-user projects built around ChatGPT or adjacent LLM workflows.
 
-[Back to README](../../readme.md)
+[Back to README](../../../readme.md)
 
 ## Danswer
 
